@@ -1,3 +1,4 @@
+# this is a simple example of using the ChatGoogleGenerativeAI model from the langchain_google_genai package to generate a response to a question. The prompt is created using the ChatPromptTemplate class, and the response is parsed using the StrOutputParser class. The generated response is then printed to the console.
 from langchain_google_genai import ChatGoogleGenerativeAI
 #from langchain.prompts import ChatPromptTemplate
 #from langchain.schema.output_parser import StrOutputParser
