@@ -5,7 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-
+#function to generate response from the model
 def main():
     llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key="AIzaSyBK-XrmqhzmeLQFozBJDDuVy_3WGpHDGZE", temperature=0.9)
 
