@@ -1,3 +1,4 @@
+# This is a Streamlit application that allows users to upload legal PDF documents, extract text, create a vector store using FAISS, and interact with the document using a Retrieval-Augmented Generation (RAG) pipeline powered by Google Gemini. Users can ask questions about the document or generate a summary of its contents. The application is designed to assist legal professionals in reviewing and analyzing legal documents efficiently.
 import streamlit as st
 import PyPDF2
 from io import BytesIO
@@ -9,7 +10,7 @@ from langchain_classic.chains.retrieval_qa.base import RetrievalQA
 from langchain_core.prompts import PromptTemplate
 from langchain_core.documents import Document
 
-# Page configuration
+# Page configuration and layout
 st.set_page_config(
     page_title="Legal Document Review Assistant",
     page_icon="⚖️",
