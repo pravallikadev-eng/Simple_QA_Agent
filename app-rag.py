@@ -10,7 +10,7 @@ from langchain_classic.chains.retrieval_qa.base import RetrievalQA
 from langchain_core.prompts import PromptTemplate
 from langchain_core.documents import Document
 
-# Page configuration
+# Page configuration and layout
 st.set_page_config(
     page_title="Legal Document Review Assistant",
     page_icon="⚖️",
