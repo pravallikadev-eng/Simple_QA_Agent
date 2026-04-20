@@ -1,6 +1,4 @@
-# SIMPLE_QA_AGENT
-
-#**Project Summary: AI-Powered Legal Q&A Agent**
+**Project Summary: AI-Powered Legal Q&A Agent**
 This project is an intelligent Question and Answer (Q&A) Agent designed to assist legal professionals in analyzing and navigating complex PDF documents. By leveraging Retrieval-Augmented Generation (RAG), the agent acts as a knowledgeable intermediary that can understand the specific context of a legal agreement and provide grounded, accurate answers.
 
 **Core Capabilities:**
